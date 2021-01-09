@@ -1,0 +1,11 @@
+*.user
+*.ncb
+*.suo
+*.ipch
+installer/game_distrib_files/*
+installer/output/game/*
+installer/output/setup.exe
+installer/output/3rdparties/*
+*.ipch
+*.sdf
+*.opensdf

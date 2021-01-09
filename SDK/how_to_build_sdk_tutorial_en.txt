@@ -1,0 +1,68 @@
+==============If problems with building and running after compilation==============
+
+Project Options-> Tasm -> Case sensitiviy -> All
+
+Project Options-> C++-> Force C++ compile
+
+If "unable to perfom incremental link", try alternate Build/Make until it'll work or restart builder.
+===================================================================================
+
+1)Install CBuilder6 - borland ver 6.0 (build 10.166), install service pack 6. 
+
+2)disable UAC, disable/setup DEP. set admin rights to bcb.exe
+
+http://windata.ru/windows-vista/nachinayushim-v/chto-takoe-uac-i-kak-ego-otklyuchit/
+http://shkolazhizni.ru/archive/0/n-19778/
+
+3)creating manually folders
+X:\intermediate_ed
+X:\intermediate_ed\ae
+X:\intermediate_ed\ecore
+X:\intermediate_ed\core
+X:\intermediate_ed\eprops
+X:\intermediate_ed\le
+X:\intermediate_ed\particles
+X:\intermediate_ed\pe
+X:\intermediate_ed\se
+X:\intermediate_ed\sound 
+
+3) Unpack from CBuilder6_stk_additional.rar folder Borland to C:\Program Files (x86) where y have builder.
+This libaries for linking, converted to builder format, cause vs and build has different understanding of c++. (if y interested in details search in goolge: omf coff)
+
+4) tools -> environment options -> environment variables  add your pathes there
+
+DXSDK_DIR C:\STALKER_GAMES_SRC\STALKER\dx9sdk
+XIPH_DIR C:\STALKER_GAMES_SRC\STALKER\SDK\Xiph\Include
+EAX_DIR C:\STALKER_GAMES_SRC\STALKER\SDK\eax
+ALSOC_DIR C:\STALKER_GAMES_SRC\STALKER\SDK\OpenAL\
+ETOOLSSOC_DIR C:\STALKER_GAMES_SRC\STALKER\xray-svn-trunk\ETools
+CORESOC_DIR C:\STALKER_GAMES_SRC\STALKER\xray-svn-trunk\xrCore
+COMPONENTS_SOC C:\STALKER_GAMES_SRC\STALKER\SDK\components
+SOC_SDK_DIR C:\STALKER_GAMES_SRC\STALKER
+MAIN_DIR C:\STALKER_GAMES_SRC
+SDK_DIR C:\STALKER_GAMES_SRC\STALKER\SDK
+
+Устарело:
+MAGIC_SW_DIR C:\STALKER_GAMES_SRC\STALKER\SDK\MagicSoftware\FreeMagic\include
+
+5) you need to copy to windows\SysWOW64 or if you have XP or x86 to windows\system32
+
+X:\STALKER\SDK\components\ElPack\bpl\elpackB6.BPL
+X:\STALKER\SDK\components\ElPack\bpl\elpkdbB6.BPL
+X:\STALKER\SDK\components\ElPack\bpl\elpproB6.BPL
+
+6)component->install packages
+
+you need to install:
+*(outdated?) borland user components - Borland\CBuilder6\Projects\Bpl\dclusr60.bpl
+editor - STALKER\SDK\components\AlexMX\editor.bpl
+eldos DB Aware Controls - STALKER\SDK\components\ElPack\Code\dceldbB6.bpl
+eldos Professional Components - STALKER\SDK\components\ElPack\Code\dcelppB6.bpl
+eldos Visual Components - STALKER\SDK\components\ElPack\Code\dclelpB6.bpl
+all this have borland itself and SDK src of stalker.
+
+7)after installing of components reopening file of project
+
+8)click on project you want to build, xrcoreb.dll for example->options->properties->linker
+don't generate state files - enable disable during random bugs of compilation during linking
+also whe y will have some random bugs try to do first make then build, it will have in 99% of cases.

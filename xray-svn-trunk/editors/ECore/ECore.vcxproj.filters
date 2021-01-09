@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="editor">
+      <UniqueIdentifier>{2806d0ad-5e7d-425c-99c8-8151cda9a0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{3fef2a5d-f21b-4fcf-9488-d2ca32320cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\blenders">
+      <UniqueIdentifier>{032340d8-09aa-4b84-8bad-6f72abfdf605}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="guid.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Editor\bone.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\BoneEditor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\c_dinput.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ColorPicker.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\D3DUtils.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\device.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\DeviceScreenshot.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\du_box.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\du_cone.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\du_cylinder.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\du_sphere.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\du_sphere_part.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EDetailModel.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditMesh.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditMeshIO.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditMeshModify.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditMeshPick.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditMeshRender.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObject.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectEditor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectImport.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectIO.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectMotions.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectProps.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditObjectSkin.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EditorPreferences.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ELog.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Engine.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EStats.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ETextureParams.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EThumbnail.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EThumbnailGroup.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EThumbnailObject.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EThumbnailSound.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\EThumbnailTexture.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ExportObjectOGF.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ExportObjectOGFCalculateTB.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ExportSkeleton.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ExportSkeletonCalculateTB.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\GeometryCollector.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImageEditor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImageManager.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImageManagerDO.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ImageManagerLOD.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\Library.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\LogForm.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\MinimapEditor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ParticleEffectActions.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\pDomain.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\render.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SoundEditor.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\SoundManager.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\TLSPRITE.CPP">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\UI_Camera.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\ui_main.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\UI_MainCommand.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\UI_MainMail.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\UI_ToolsCustom.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor\xrLoadSurface.cpp">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\ai_sounds.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\bone.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\cl_collector.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameMtlLib.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\GameMtlLib_Engine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\guid_generator.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Image.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\nv_algebra.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\NVMeshMender.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\blenders\Blender_B.cpp">
+      <Filter>engine\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\blenders\blender_light.cpp">
+      <Filter>engine\blenders</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\blenders\Blender_Shadow_Texture.cpp">
+      <Filter>engine\blenders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="resource.res" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Editor\ArbitraryList.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ColorPicker.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\D3DUtils.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\D3DX_Wrapper.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\device.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\DrawUtils.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\du_box.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\du_cone.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\du_cylinder.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\du_sphere.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\du_sphere_part.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EDetailModel.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditMesh.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditObject.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EditorPreferences.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ELog.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\engine.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EStats.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ETextureParams.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\EThumbnail.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ExportObjectOGF.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ExportSkeleton.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\GeometryCollector.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImageEditor.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ImageManager.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\Library.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\LogForm.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\LW_ShaderDef.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\lwo2.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\MinimapEditor.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ParticleEffectActions.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\pick_definition.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\pick_defs.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\PropSlimTools.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\render.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SkeletonFace.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SkeletonVert.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SoundEditor.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\SoundManager.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\TLSPRITE.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\UI_Camera.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\ui_main.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\UI_MainCommand.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor\UI_ToolsCustom.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\ai_sounds.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cl_collector.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\cl_intersect.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\GameMtlLib.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\guid_generator.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Image.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\nv_algebra.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\nv_math.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\nv_mathdecl.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\NVMeshMender.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Texture.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\blenders\Blender_B.h">
+      <Filter>engine\blenders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\blenders\blender_light.h">
+      <Filter>engine\blenders</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\blenders\Blender_Shadow_Texture.h">
+      <Filter>engine\blenders</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Editor\ImageEditor.ddp">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\ImageEditor.dfm">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\LogForm.dfm">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\MinimapEditor.ddp">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\MinimapEditor.dfm">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\SoundEditor.ddp">
+      <Filter>editor</Filter>
+    </None>
+    <None Include="Editor\SoundEditor.dfm">
+      <Filter>editor</Filter>
+    </None>
+  </ItemGroup>
+</Project>
